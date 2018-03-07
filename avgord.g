@@ -4,7 +4,7 @@ local sum, g;
 	for g in G do
 		sum := sum + Order(g);
 	od;
-	return sum/Size(G);
+	return Float(sum/Size(G));
 end;
 
 
